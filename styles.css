@@ -11,8 +11,9 @@
 
 .volatile-pen-hud {
     position: fixed;
-    top: 12px;
+    top: 50%;
     right: 12px;
+    transform: translateY(-50%);
     z-index: 10000;
     background: rgba(0, 0, 0, 0.6);
     color: white;
